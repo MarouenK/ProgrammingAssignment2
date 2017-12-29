@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# make getters and setters available
 makeCacheMatrix <- function(x = matrix()) {
 
     inv <- NULL
@@ -31,7 +31,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#return the inverse of the matrix if available (cached) or calculate if not 
 cacheSolve <- function(x, ...) {
 
     m <- x$getInverse()
